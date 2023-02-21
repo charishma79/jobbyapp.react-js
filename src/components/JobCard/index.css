@@ -1,0 +1,140 @@
+.job-list-item {
+  background-color: #272727;
+  min-height: 35vh;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.job-detail-list {
+  display: flex;
+  align-items: center;
+}
+
+.company-image {
+  height: 80px;
+  margin: 15px;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 23px;
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 17px;
+}
+
+.location-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-list {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.location-icon {
+  font-size: 23px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.location-text {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.brief-icon {
+  font-size: 23px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.brief-text {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.package {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #ffffff;
+}
+
+.separate-line {
+  border: 1.5px solid #475569;
+}
+
+.job-description {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.text-description {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 2;
+}
+@media screen and (max-width: 767px) {
+  .company-image {
+    height: 55px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .package {
+    font-size: 15px;
+  }
+  .location-icon {
+    margin-right: 2px;
+  }
+  .location-text {
+    font-size: 12px;
+  }
+  .brief-text {
+    font-size: 12px;
+  }
+  .brief-icon {
+    margin-right: 2px;
+  }
+}
+
+.item-link {
+  text-decoration: none;
+}

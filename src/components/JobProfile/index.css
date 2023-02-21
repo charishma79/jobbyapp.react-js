@@ -1,0 +1,38 @@
+.failure-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 55px;
+}
+
+.on-retry-btn {
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  align-self: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.name {
+  color: #6366f1;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.bio {
+  color: #7e858e;
+  font-family: Roboto;
+  font-size: 16px;
+}

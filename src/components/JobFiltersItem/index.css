@@ -1,0 +1,35 @@
+.list-item {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.text-label {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.employment-type {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.filters-group-container {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.radiobox {
+  margin-right: 10px;
+  padding-left: 0px;
+}

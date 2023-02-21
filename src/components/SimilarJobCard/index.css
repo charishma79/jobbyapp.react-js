@@ -1,0 +1,28 @@
+.similar-job-card {
+  background-color: #272727;
+  min-height: 40vh;
+  width: 25vw;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-job-card {
+    width: 100%;
+  }
+}
+.description-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.description-para {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 1.9;
+}
